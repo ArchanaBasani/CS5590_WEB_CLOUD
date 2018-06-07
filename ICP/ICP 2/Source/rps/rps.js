@@ -1,5 +1,5 @@
 // Player choice
-var PlayerChoice = prompt("Do you choose rock, paper or scissors?");
+var PlayerChoice = prompt("Enter rock, paper or scissors?");
 if (! PlayerChoice) {
     // Player choice was undefined
     document.write("<p>Player 1, you cheated! Refresh this screen and Play like a man.</p>");
