@@ -1,4 +1,5 @@
 // an array of colors and assign it to a variable colors
+
 var colors = [ "22ac5e", "d68236", "71b5c2", "af2655", "b34de7", "e6bd01", "104393", "ca4d94", "4a772d", "c180a7", "958112", "8d2f8d" ]
 var len=colors.length;
 //console.log(len);

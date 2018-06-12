@@ -12,8 +12,11 @@ function showUser(user) {
     //2. set the contents of the h2 and the two div elements in the div '#profile' with the user content
 
     $('#profile h2').html(user.login);
-    $('#profile .avatar').text(user.avatar_url);
-    $('#profile .information').text(user.html_url);
+    var link = "<a target='_blank' href='"+user.html_url+"'> URL </a>";
+    $(".information").html("<label></label>"
+        +"<br/> <label style='color: seagreen'>GitHub URL : </label>"+link
+      );
+
 
     var img = $('<img />', {
         id: 'Myid',
@@ -21,14 +24,18 @@ function showUser(user) {
         alt: 'MyAlt'
     });
     img.appendTo($('#imge'));
+   // window.location.reload();
 }
 
 function noSuchUser(username) {
     //3. set the elements such that a suitable message is displayed
     $("#profile h2").html('USER NOT FOUND');
+   // window.location.reload();
 
 }
-
+function myFunction() {
+    location.reload();
+}
 
 $(document).ready(function(){
     $(document).on('keypress', '#username', function(e){
