@@ -5,10 +5,6 @@ function getGithubInfo(user) {
         url:"https://api.github.com/users/"+user,
         async: false
     });
-
-
-
-
 }
 
 function showUser(user) {
@@ -17,7 +13,8 @@ function showUser(user) {
 
     $('#profile h2').html(user.login);
     $('#profile .avatar').text(user.avatar_url);
-    $('#profile .information').text(user.url);
+    $('#profile .information').text(user.html_url);
+
     var img = $('<img />', {
         id: 'Myid',
         src: user.avatar_url,
