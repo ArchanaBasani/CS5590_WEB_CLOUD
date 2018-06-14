@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="calculatorApp">
+
+<head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,400italic,500' rel='stylesheet'
+              type='text/css'>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+        <script type="text/javascript"></script>
+        <script src="calculator.js"></script>
+
+</head>
+<body>
+<!-- Declare the View -->
+<div ng-controller="calculatorController">
+    <div class="section group"> <!-- Display the result row -->
+        <div class="col c3of4">{{ calculator.currentDisplay }}</div>
+        <div ng-click="resetClicked()" class="col c1of4">C</div>
+    </div>
+    <div class="section group"> <!-- Display the 1st number row -->
+        <div ng-click="numberButtonClicked(1)" class="col c1of4">1</div>
+        <div ng-click="numberButtonClicked(2)" class="col c1of4">2</div>
+        <div ng-click="numberButtonClicked(3)" class="col c1of4">3</div>
+        <div ng-click="operationButtonClicked('+')" class="col c1of4">+</div>
+    </div>
+    <div class="section group"> <!-- Display the 2nd number row -->
+        <div ng-click="numberButtonClicked(4)" class="col c1of4">4</div>
+        <div ng-click="numberButtonClicked(5)" class="col c1of4">5</div>
+        <div ng-click="numberButtonClicked(6)" class="col c1of4">6</div>
+        <div ng-click="operationButtonClicked('-')" class="col c1of4">-</div>
+    </div>
+    <div class="section group"> <!-- Display the 3rd number row -->
+        <div ng-click="numberButtonClicked(7)" class="col c1of4">7</div>
+        <div ng-click="numberButtonClicked(8)" class="col c1of4">8</div>
+        <div ng-click="numberButtonClicked(9)" class="col c1of4">9</div>
+        <div ng-click="enterClicked()" class="col c1of4">Enter</div>
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>
