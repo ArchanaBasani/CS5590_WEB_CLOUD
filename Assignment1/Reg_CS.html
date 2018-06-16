@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 1::Registration</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="main.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row top-buffer">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a href="main.html">
+                        <img src="Home.jpg" class="home_img center-block" alt="Home" id="home"/>
+                    </a>
+                    <h1 class="text-center">Course Registration</h1>
+                </div>
+                <div class="panel-body">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2">
+                        <a href="https://www.edx.org/course/introduction-java-programming-part-1-hkustx-comp102-1x-6" target="_blank">
+                            <img src="Java.png" class="img-responsive img-thumbnail" alt="CS">
+                        </a>
+                        <ul class="list-group">
+                            <li class="list-group-item"><strong>ID</strong> - CS 100</li>
+                            <li class="list-group-item"><strong>Name</strong> - <a href="https://www.edx.org/course/introduction-java-programming-part-1-hkustx-comp102-1x-6" target="_blank">Introduction to Java Programming</a></li>
+                            <li class="list-group-item"><strong>Description</strong> - This Java course will provide you with a strong understanding of basic Java programming elements and data abstraction using problem representation and the object-oriented framework. As the saying goes, “A picture is worth a thousand words.” This course will use sample objects such as photos or images to illustrate some important concepts to enhance understanding and retention. You will learn to write procedural programs using variables, arrays, control statements, loops, recursion, data abstraction and objects in an integrated development environment.</li>
+                            <li class="list-group-item"><strong>Rating</strong> - 9/10</li>
+                            <li class="list-group-item"><strong>Review</strong> - This is a great course for learning Java.</li>
+                            <li class="list-group-item"><strong>Total students</strong> - <span id="total">40</span></li>
+                            <li class="list-group-item"><strong>Available seats</strong> - <span id="available">10</span></li>
+                        </ul>
+
+                        <button class="btn btn-lg btn-info btn-block" onclick="register()">Register</button>
+                        <div class="alert alert-success" id="success">
+                            <strong>Success!</strong> You registered a class.
+                        </div>
+                        <div class="alert alert-danger" id="fail">
+                            <strong>Fail!</strong> No class available.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

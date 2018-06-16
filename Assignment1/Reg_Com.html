@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 1::Registration</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="main.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row top-buffer">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a href="main.html">
+                        <img src="Home.jpg" class="home_img center-block" alt="Home" id="home"/>
+                    </a>
+                    <h1 class="text-center">Course Registration</h1>
+                </div>
+                <div class="panel-body">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2">
+                        <a href="https://www.edx.org/course/becoming-successful-leader-inclusive-catalystx-il2x-1" target="_blank">
+                            <img src="comm.jpg" class="img-responsive img-thumbnail" alt="COMM">
+                        </a>
+                        <ul class="list-group">
+                            <li class="list-group-item"><strong>ID</strong> - CHEM 100</li>
+                            <li class="list-group-item"><strong>Name</strong> - <a href="https://www.edx.org/course/becoming-successful-leader-inclusive-catalystx-il2x-1" target="_blank">Becoming a Successful Leader</a></li>
+                            <li class="list-group-item"><strong>Description</strong> - What separates a successful leader from a mediocre one? In this course, you will learn what successful 21st-century leaders look like and how you can adopt their inclusive leadership style. Using research and best practices, as well as stories from great leaders and everyday people, you will practice empowerment, accountability, courage, and humility—key leadership skills linked to inclusive, successful teams. Throughout the course, you will meet people like yourself, who want to be the best leaders they possibly can by incorporating inclusive leadership into their everyday lives. With short quizzes and compelling case studies, you will refine your skills each section. Most importantly, you will apply your new leadership skills through exciting real-life exercises. At the end of the course, you will create a Personal Leadership Plan that will help you continue to develop your skills, knowledge, and awareness in your quest to become a successful, inclusive leader.</li>
+                            <li class="list-group-item"><strong>Rating</strong> - 8/10</li>
+                            <li class="list-group-item"><strong>Review</strong> - This is a great course for learning how to become a leader.</li>
+                            <li class="list-group-item"><strong>Total students</strong> - <span id="total">30</span></li>
+                            <li class="list-group-item"><strong>Available seats</strong> - <span id="available">2</span></li>
+                        </ul>
+
+                        <button class="btn btn-lg btn-info btn-block" onclick="register()">Register</button>
+                        <div class="alert alert-success" id="success">
+                            <strong>Success!</strong> You registered a class.
+                        </div>
+                        <div class="alert alert-danger" id="fail">
+                            <strong>Fail!</strong> No class available.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

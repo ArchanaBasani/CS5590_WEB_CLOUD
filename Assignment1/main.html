@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 1::Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="main.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row top-buffer">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a href="main.html">
+                        <img src="Home.jpg" class="home_img center-block" alt="Home" id="home"/>
+                    </a>
+                    <h1 class="text-center">Course Search</h1>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group" id="form_id">
+                        <label>Education</label>
+                        <select class="form-control" id="education_select">
+                            <option>Bachelor</option>
+                            <option>Master</option>
+                        </select>
+                        <label>Semester</label>
+                        <select class="form-control" id="semester_select">
+                            <option>Spring</option>
+                            <option>Fall</option>
+                            <option>Summer</option>
+                        </select>
+                        <label>Career</label>
+                        <select class="form-control" id="career_select">
+                            <option>CS</option>
+                            <option>Chemistry</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-lg btn-info btn-block" onclick="displayCourses()">Search</button>
+                    <hr>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Instructor</th>
+                                <th>Prerequisites</th>
+                                <th>Credits</th>
+                                <th>Duration</th>
+                            </tr>
+                            </thead>
+                            <tbody id="course_info">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
