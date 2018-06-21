@@ -1,0 +1,70 @@
+{
+
+  "name": "United States",
+  "children": [
+    {
+      "name": "University of Missouri System",
+      "children": [
+        {
+          "name": "University of Missouri Kansas City"
+        },
+        {
+          "name": "University of Missouri St.Louis"
+        },
+        {
+          "name": "University of Missouri Columbia"
+        },
+        {
+          "name": "Missouri Science and Technology Rolla"
+        }
+      ]
+    },
+    {
+      "name":"Princeton University",
+      "children":[
+        {
+          "name":"Prince College"
+        },
+        {
+          "name":"Queen  College"
+        },
+        {
+          "name":"King College"
+        }
+      ]
+    },
+    {
+      "name":"University of Chicago",
+      "children":[
+        {
+          "name":"Chicago Arts and Science"
+        },
+        {
+          "name":"Chicago Business College"
+        },
+        {
+          "name":"University of chicago downtown "
+        }
+      ]
+    },
+    {
+      "name":"Yale University",
+      "children":[
+        {
+          "name":"Morse College"
+        },
+        {
+          "name":"Davenport College"
+        },
+        {
+          "name":"Grace Hopper College"
+        },
+        {
+          "name":"yale college"
+        }
+      ]
+    }
+
+  ]
+}
+
