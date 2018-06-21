@@ -14,21 +14,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="D3_Tree.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UseCase/D3_Tree.html">
+      <file leaf-file-name="mongodb_delete.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_delete.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state relative-caret-position="102">
+              <caret line="6" column="71" lean-forward="false" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="D3_Tree.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UseCase/D3_Tree.js">
+      <file leaf-file-name="mongodb_drop_collection.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_drop_collection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state relative-caret-position="85">
+              <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongodb_drop_db.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_drop_db.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongodb_find.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_find.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongodb_insert.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_insert.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongodb_update.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_update.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -44,11 +84,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="treeData.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UseCase/treeData.json">
+      <file leaf-file-name="cloud_mongodb_create_collection.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MongoDB/cloud_mongodb_create_collection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="42" lean-forward="false" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+            <state relative-caret-position="170">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongodb_create_db.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_create_db.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongodb_create_collection.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_create_collection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="71" lean-forward="false" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -69,10 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MongoDB/cloud_mongodb_create_collection.js" />
-        <option value="$PROJECT_DIR$/MongoDB/cloud_mongodb_delete.js" />
-        <option value="$PROJECT_DIR$/MongoDB/cloud_mongodb_drop_collection.js" />
-        <option value="$PROJECT_DIR$/MongoDB/cloud_mongodb_find.js" />
         <option value="$PROJECT_DIR$/UseCase/d3.js" />
         <option value="$PROJECT_DIR$/UseCase/d3.html" />
         <option value="$PROJECT_DIR$/UseCase/package.json" />
@@ -83,6 +139,20 @@
         <option value="$PROJECT_DIR$/UseCase/D3_Tree.js" />
         <option value="$PROJECT_DIR$/UseCase/treeData.json" />
         <option value="$PROJECT_DIR$/MongoDB/cloud_mongodb_connection.js" />
+        <option value="$PROJECT_DIR$/MongoDB/cloud_mongodb_delete.js" />
+        <option value="$PROJECT_DIR$/MongoDB/cloud_mongodb_drop_collection.js" />
+        <option value="$PROJECT_DIR$/MongoDB/cloud_mongodb_find.js" />
+        <option value="$PROJECT_DIR$/MongoDB/cloud_mongodb_insert.js" />
+        <option value="$PROJECT_DIR$/MongoDB/cloud_mongodb_update.js" />
+        <option value="$PROJECT_DIR$/MongoDB/mongodb_create_collection.js" />
+        <option value="$PROJECT_DIR$/MongoDB/mongodb_create_db.js" />
+        <option value="$PROJECT_DIR$/MongoDB/mongodb_delete.js" />
+        <option value="$PROJECT_DIR$/MongoDB/mongodb_drop_collection.js" />
+        <option value="$PROJECT_DIR$/MongoDB/mongodb_drop_db.js" />
+        <option value="$PROJECT_DIR$/MongoDB/mongodb_find.js" />
+        <option value="$PROJECT_DIR$/MongoDB/mongodb_insert.js" />
+        <option value="$PROJECT_DIR$/MongoDB/mongodb_update.js" />
+        <option value="$PROJECT_DIR$/MongoDB/cloud_mongodb_create_collection.js" />
       </list>
     </option>
   </component>
@@ -161,20 +231,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.dndTree.js">
+  <component name="RunManager" selected="Node.js.cloud_mongodb_create_collection.js">
+    <configuration name="cloud_mongodb_connection.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="cloud_mongodb_connection.js" working-dir="$PROJECT_DIR$/MongoDB" />
+    <configuration name="cloud_mongodb_create_collection.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="cloud_mongodb_create_collection.js" working-dir="$PROJECT_DIR$/MongoDB" />
     <configuration name="d3.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ICP 6/UseCase/d3.html" />
     <configuration name="d3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="d3.js" working-dir="$PROJECT_DIR$/UseCase" />
     <configuration name="dndTree.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="dndTree.js" working-dir="$PROJECT_DIR$/UseCase" />
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.d3.html" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.d3.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.dndTree.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.cloud_mongodb_connection.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.cloud_mongodb_create_collection.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.dndTree.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.d3.js" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.d3.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.cloud_mongodb_create_collection.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.cloud_mongodb_connection.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.dndTree.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.d3.js" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.d3.html" />
       </list>
     </recent_temporary>
   </component>
@@ -188,12 +264,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529609520923</updated>
-      <workItem from="1529609523044" duration="5236000" />
+      <workItem from="1529609523044" duration="5890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5236000" />
+    <option name="totallyTimeSpent" value="5890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -203,7 +279,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -230,38 +306,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MongoDB/cloud_mongodb_delete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="69" lean-forward="false" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MongoDB/cloud_mongodb_drop_collection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="5" selection-start-column="69" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MongoDB/cloud_mongodb_find.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="69" lean-forward="false" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MongoDB/cloud_mongodb_create_collection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UseCase/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -318,14 +362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MongoDB/cloud_mongodb_connection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UseCase/D3_Tree.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -336,8 +372,128 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UseCase/D3_Tree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/cloud_mongodb_delete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="71" lean-forward="false" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/cloud_mongodb_drop_collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/cloud_mongodb_find.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/cloud_mongodb_insert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/cloud_mongodb_update.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_create_collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="71" lean-forward="false" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_create_db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_delete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="71" lean-forward="false" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_drop_collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_drop_db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_find.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_insert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/mongodb_update.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/cloud_mongodb_connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB/cloud_mongodb_create_collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding />
         </state>
       </provider>

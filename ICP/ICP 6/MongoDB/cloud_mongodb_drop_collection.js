@@ -3,7 +3,7 @@
  */
 
 var MongoClient = require('mongodb').MongoClient;
-var url = 'mongodb://<root>:<root>@ds263138.mlab.com:63138/webcloud';
+var url = 'mongodb://lesson6:lesson6@ds263138.mlab.com:63138/webcloud';
 
 MongoClient.connect(url, function(err, db) {
     if (err) throw err;
