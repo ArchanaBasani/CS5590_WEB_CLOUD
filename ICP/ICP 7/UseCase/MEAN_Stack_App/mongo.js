@@ -83,7 +83,7 @@ app.get('/update/:toBeUpdated_id', function (req, res) {
         newData.authorName = req.query.authorName;
 
         updateDocument(db,p, newData, function() {
-            res.write("Successfully Updated +toBeDeleted_id");
+            res.write("Successfully Updated +toBeUpdated_id");
             res.end();
         });
     });
