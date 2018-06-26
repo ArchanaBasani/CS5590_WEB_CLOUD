@@ -26,6 +26,7 @@ myapp.controller('addController',function($scope,$http){
         req.success(function(data, status, headers, config) {
             $scope.message = data;
             console.log(data);
+            alert("inserted successfully");
         });
         req.error(function(data, status, headers, config) {
             alert( "failure message: " + JSON.stringify({data: data}));
@@ -41,6 +42,7 @@ myapp.controller('homeController',function($scope,$http){
         req.success(function(data, status, headers, config) {
             $scope.bookList = data;
             console.log(data);
+
         });
         req.error(function(data, status, headers, config) {
             alert( "failure message: " + JSON.stringify({data: data}));
@@ -52,17 +54,16 @@ myapp.controller('homeController',function($scope,$http){
 
         $http.get('http://127.0.0.1:8081/delete/'+id)
             .success(function(data){
-                console.log("Successfully deleted");
+               alert("Successfully deleted");
                 $scope.getData();
             });
     };
 
 
     $scope.update = function(book,callback){
-
         $http.get('http://127.0.0.1:8081/update/'+book._id,{params:book})
             .success(function(data){
-                console.log("Successfully updated");
+                alert("Successfully updated");
                 $scope.getData();
             });
     }

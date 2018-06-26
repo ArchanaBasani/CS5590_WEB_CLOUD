@@ -82,14 +82,9 @@ app.get('/update/:toBeUpdated_id', function (req, res) {
         newData.bookName = req.query.bookName;
         newData.authorName = req.query.authorName;
 
-        db.collection('books').updateOne(p,{'$set': newData },function(err,result){
-            if(err)
-            {
-                res.write("Registration Failed, Error While Registering");
-                res.end();
-            }
-            console.log("Updated a document into the books collection.");
-
+        updateDocument(db,p, newData, function() {
+            res.write("Successfully Updated +toBeDeleted_id");
+            res.end();
         });
     });
 
@@ -117,6 +112,18 @@ var deleteDocument = function(db, data, callback) {
         }
         console.log("deleted a document from the books collection.");
         callback();
+    });
+};
+
+var updateDocument = function(db, p, newData, callback) {
+    db.collection('books').updateOne(p,{'$set': newData },function(err,result){
+        if(err)
+        {
+            res.write("Registration Failed, Error While Registering");
+            res.end();
+        }
+        console.log("Updated a document into the books collection.");
+        callback()
     });
 };
 
