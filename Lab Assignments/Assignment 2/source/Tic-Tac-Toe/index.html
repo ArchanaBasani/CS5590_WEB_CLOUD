@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html data-ng-app="TicTacToe">
+<head>
+    <title>Tic-Tac-Toe</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+    <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="stylesheet.css" rel="stylesheet">
+    <script src="app.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row top-buffer">
+        <div class="col-lg-8 col-lg-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <img src="icon.jpg" class="home_img center-block" id="home" />
+                    <h1 class="text-center">Tic Tac Toe</h1>
+                </div>
+                <div class="panel-body text-center" data-ng-controller="TicTacToeCtrl">
+                    <h2>Current Player: {{ currentPlayer }}</h2>
+                    <div data-ng-repeat="row in board">
+                        <button type="button" class="btn btn-default btn-lg" data-ng-repeat="cell in row" data-ng-disabled="!empty(cell)" data-ng-click="move(cell)">{{ cell.value }}</button>
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-primary btn-lg" data-ng-click="reset()">New Game</button>
+                    <h2 id="result"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
