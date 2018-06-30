@@ -4,9 +4,9 @@
     <title>TwitterSearch</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css">
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.1/angular.min.js"></script>
     <script src="app.js"></script>
 </head>
 <body>
@@ -21,12 +21,12 @@
                 </div>
                 <div class="panel-body" data-ng-controller="serviceCtrl">
                     <h1 class="text-center">Search Text</h1>
-                    <input placeholder="Enter a text" type="text" class="form-control" data-ng-model="screen_name"/>
+                    <input placeholder="Enter a text" type="text" class="form-control" ng-model="screen_name"/>
                     <br>
                     <button class="btn btn-lg btn-success btn-block" data-ng-click="search()">Search</button>
                     <br>
                     <hr>
-                    <svg width="1200" height="100"></svg>
+                    <svg width="1200" height="250"></svg>
                 </div>
             </div>
         </div>
