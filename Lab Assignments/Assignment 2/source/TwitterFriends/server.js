@@ -34,9 +34,7 @@ app.get('/:screen_name',function(req,res){
     var url = 'https://api.twitter.com/1.1/friends/list.json?cursor=-1&skip_status=true&include_user_entities=false&screen_name='+name;
     request({ url: url,
         method:'GET',
-        headers: {
-            "Authorization": "Bearer AAAAAAAAAAAAAAAAAAAAANNn6wAAAAAAVkbD41b%2B3z%2BfHRhclqcynxAqLz8%3DyNDucgxspilLHOhWLpoJ2I0KVqdfxetjEJVftu7F5KgWJ2jXU3"
-        }
+       
     }, function(err, resp, data) {
         var data1 = JSON.parse(data);
         // Stringfying the Data
