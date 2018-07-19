@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\pandala\.android\build-cache\2465c15ad57adbbc4eb69077a9d72ff05d8c1701\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\pandala\Desktop\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7d6aa35ff9cd99d3d52ab0e19ba2923473196279\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pandala\.android\build-cache\d4ab37b41b0b9b3ee7fd5f9dfdce6f0c12df5c68\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\pandala\Desktop\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e6ae2d384e3a670ce3fe5bed9c1e12ac697c48fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pandala\.android\build-cache\1f5826b193df233d5754af54cf21a18d63e32d5f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\pandala\Desktop\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e16b11f6a7b5e55685da6514c1783838bcb551a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pandala\.android\build-cache\1348efa85a3c0f69deaa7397a837e69c9fc0d44b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\pandala\Desktop\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3d62cb020dfa2704f699050d71ec68e2e80d069d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pandala\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\pandala\Desktop\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_f5d643d667a110faf00712c64dac61d053db3cb2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pandala\.android\build-cache\17d46ee55beef46628de35e5c004a1c1ce812092\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\pandala\Desktop\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6a65e9f16adb1ac1ffbe0fd7af146618cba3c6bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pandala\.android\build-cache\81ca3d0b0ae4695d08dea3332b2f7a1a60ba67cf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\pandala\Desktop\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_952a16d4ce7e1ccd9ad0ec4ad394b1816f4de15c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pandala\.android\build-cache\0908c046fe050935665fe53d6e041742a090119a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\pandala\Desktop\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3b5001c2e47ed663b6676003d67cd1d21687a640\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pandala\.android\build-cache\e991c32a441264bd42a91bc6c3e77e7aef5170f1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\pandala\Desktop\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c2438b5aedbf043db8f3c0dbe1fa1923aff4f66d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pandala\Desktop\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="df61024c03172ee0c41783be46b12775f7716592">
+        <dex dex="C:\Users\pandala\Desktop\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_165395a23b1fba24eef68f790dda2dfe887cc702\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pandala\Desktop\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="C:\Users\pandala\Desktop\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_59d0ee1bbbd442e780abc321ad35ea6b5563a887\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pandala\.android\build-cache\3e15f9bdf098174a00c57e7f96fb4f441ee140ca\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\pandala\Desktop\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f82506d450aec25c34b8637e6b7b8014b8bff4b2\classes.dex" />
+    </item>
+
+</items>
