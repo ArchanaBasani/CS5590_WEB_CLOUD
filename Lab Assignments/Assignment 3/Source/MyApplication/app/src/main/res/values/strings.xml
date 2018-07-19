@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">myapplication</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_username">Enter your username</string>
+    <string name="hint_school">Enter your school</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="create">Create</string>
+    <string name="lab1">Lab 1</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="setting">watson</string>
+    <string name="help">guardian</string>
+    <string name="auto">Auto Discovery:</string>
+    <string name="speed">Application Speed:</string>
+    <string name="fast">Fast</string>
+    <string name="slow">Slow</string>
+    <string name="rating">Rating:</string>
+    <string name="gps">GPS Switch:</string>
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">fdxhp1vvyrjZgAiULWRqy775F</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">cI0nr2V9DP3Vdijm7oqsITFVYVGpZVLd3JpRXRt6VoniSJcB1Q</string>
+
+
+</resources>

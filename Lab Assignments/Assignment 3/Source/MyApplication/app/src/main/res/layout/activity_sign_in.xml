@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tirup.myapplication.SignInActivity"
+    android:background="@color/green">
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="@string/sign_in"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hint_username"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="@color/white"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="@color/white"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/create"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dip"
+            android:text="@string/sign_in"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:background="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <com.twitter.sdk.android.core.identity.TwitterLoginButton
+            android:id="@+id/login_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"/>
+
+    </LinearLayout>
+</RelativeLayout>
