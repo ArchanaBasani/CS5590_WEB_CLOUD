@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab3</string>
+    <string name="STS">STS</string>
+    <string name="TTS">TTS</string>
+    <string name="getlastrecord">get last record</string>
+    <string name="save">save</string>
+</resources>
